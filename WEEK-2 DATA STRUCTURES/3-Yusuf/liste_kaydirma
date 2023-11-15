@@ -1,0 +1,16 @@
+#Get the elements of the list and the shift amount from the user.
+input_list = input("Enter the list elements: ").split(',')
+input_list = [int(item) for item in input_list]
+shift_amount = int(input("Enter shift amount: "))
+
+
+# Find the length of the list
+length = len(input_list)
+
+#Find the exact shift amount according to the list length
+shift_amount = shift_amount % length
+
+#arrange the new list according to the shift amount index.
+shifted_list = input_list[-shift_amount:] + input_list[:-shift_amount]
+
+print(f"Output: {shifted_list}")

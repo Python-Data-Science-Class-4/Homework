@@ -3,7 +3,7 @@
 word1 = input('Enter the 1st word:')     # The user is asked for two words that he wants to compare with the input.
 word2 = input('Enter the 2nd word:')
 ''''''
-A = set(word1.lower())     #
+A = set(word1.lower())     
 B = set(word2.lower())
 
 difference_1 = list(A.difference(B))      # Only the letters in the first word are taken with 'difference'...

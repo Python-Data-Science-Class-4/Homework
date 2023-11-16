@@ -10,3 +10,4 @@ while c < b:
     c = c + 1
     print(f"{c}. Tur: {a} ")
 print("İşlem Bitti")
+

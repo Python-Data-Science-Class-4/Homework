@@ -7,3 +7,4 @@ for a in metin:
     if (a not in sayilan_harf):
         print(f"Metin içerisinde {b} tane {a} harfi vardır.")
         sayilan_harf.append(a)
+        

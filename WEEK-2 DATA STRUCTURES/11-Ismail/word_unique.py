@@ -6,18 +6,18 @@
 
 
 #Entering two unique words
-word1= str(input("Enter a word:"))
-word2= str(input("Enter a word:"))
+word1= str(input("Enter a word:").lower())
+word2= str(input("Enter a word:").lower())
 
 #convert to set as wrd1 and wrd2
-wrd1= set(word1)
-wrd2= set(word2)
+set_wrd1= set(word1)
+set_wrd2= set(word2)
 
-sharedletters= (wrd1 & wrd2) #pull the shared letters
-differenceletters1= (wrd1-wrd2)#different letters from second one
-differenceletters2= (wrd2-wrd1)#different letters from fist one
+shared_letters= sorted(set_wrd1 & set_wrd2) #pull the shared letters
+difference_letters1= sorted(set_wrd1-set_wrd2)#different letters from second one
+difference_letters2= sorted(set_wrd2-set_wrd1)#different letters from fist one
 
-letters=(sharedletters,differenceletters1,differenceletters2) 
+letters=(shared_letters,difference_letters1,difference_letters2) 
 result= sorted((letters),key=letters.index) #convert a list and sort 
 
 print ( result)

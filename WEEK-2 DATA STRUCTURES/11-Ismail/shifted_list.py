@@ -23,3 +23,10 @@ elif m < 0:
     print("Shifted right:", shifted_right)
 else:
     print("No shift, the list remains the same:", createlist) 
+'''
+Kod genel olarak dogru gayet guzel calisiyor,ama bazi iyilestirmeler yapabiliriz.
+**Ilk olarak listeyi kullanici kendi olusturabilir. Burada siz sayi aliyorsunuz ve o sayiya kadar elemanlari listeye koyuyor. Kendi liste elemanlarini girebilir.
+**Liste uzunlugundan fazla bir sayi girdigimde istedigimiz seyi vermiyor onu duzeltebiliriz.
+
+Ek olarak PEP 8 standartlarına bakip kodlarimizi daha duzenli hale getirebiliriz. Bu linki incelerseniz 
+daha uygun bi formatla yazmis olursunuz.--->https://peps.python.org/pep-0008/ '''

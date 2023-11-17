@@ -20,3 +20,9 @@ def letter_counter(sentence):
         print(f"Letter: {i} Count: {count_dict[i]}")
 
 letter_counter(sentence=input("Please enter a sentence: "))
+
+''''
+Kod gayet basarili.
+Ama fonksiyon konusunu henuz gormediniz fonksiyon kullanmadan da yapabilir miyiz bir bakalim.
+Soruda alfabetik siraya gore hangi harften kac adet kullanildigini istemisti ama sizin kodunuzda alfabetik sirayla siralamiyor
+bunun icin 'items()' fonksiyonunu kullanabilirsiniz.'''

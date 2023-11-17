@@ -4,7 +4,6 @@
 # Output [('a', 4), ('d', 3),('e', 10), ('f', 2), ('h', 4), ('i', 7), ('l', 3), ('m', 4), ('n', 1), ('o' ,4), ('p', 2), ('r', 5),
 # ('s', 10), ('t', 9), ('v', 1), ('w', 4), ('x', 2)]
 
-
 sentencefromuser = input("Enter a sentence: ")
 
 
@@ -12,10 +11,17 @@ letter_count = {}#create a dict
 
 for letter in sentencefromuser:
     
-    if letter in letter_count: #checking the letter if it is inside of sentencefromuser
-        letter_count[letter] += 1 #if it is not a new letter, equals one more time 
-    else:
-        letter_count[letter] = 1 # or it is new letter, add to list   
+    if letter.isalpha(): #Checking each letter with the isalpha() function and only processes alphabetic characters.
+        
+        if letter in letter_count: #Checking the letter if it is inside of sentencefromuser
+            letter_count[letter] += 1 #if it is not a new letter, equals one more time 
+    
+        elif letter.lower() in letter_count : #And also checking each letter that they are lowercase or not.
+            letter_count[letter.lower]+=1
+        
+        else:
+            letter_count[letter] = 1 # or it is new letter, add to list   
+    
 
 sorted_counts = sorted(letter_count.items()) 
 

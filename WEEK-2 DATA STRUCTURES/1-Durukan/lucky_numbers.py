@@ -15,3 +15,10 @@ def lucky_numbers(n):
     print(num_list)
 
 lucky_numbers(n=int(input("Please enter a number: "))) 
+
+'''Kod cok basarili tebrik ederim..
+**PEP 8 standartlarına bakip kodlarimizi daha duzenli hale getirebiliriz. Sizin kodlariniz gayet guzel ama bu linki incelerseniz 
+daha uygun bi formatla yazmis olursunuz.--->https://peps.python.org/pep-0008/
+**Bir onceki odevde de dedigim gibi bunu da fonksiyonsuz yapabilir miydik bir bakalim. Tekrar yuklemenize gerek yok.
+Direkt bana gonderebilirsiniz.'''
+

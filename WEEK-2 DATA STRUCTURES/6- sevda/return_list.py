@@ -27,6 +27,13 @@ while True :
     else:
          break
 
+'''Kod istwnileni veriyor ama liste uzunlugundan  buyuk bir sayi girdigimde hicbir degisiklik yapmiyor. Mod kullanarak islem yapmasi gerekiyor.
+ n %= len(list_1)
+
+    list_2 = list_1[-n:] + list_1[:-n]
+    print(list_2)
+    
+'''
 
 
 

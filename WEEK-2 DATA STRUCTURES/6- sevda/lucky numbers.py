@@ -23,6 +23,6 @@ print('Lucky Numbers',number_list)
 **Sizden istenen cikti olarak son listeyi gormek siz her adimi gostermissiniz bu da cok guzel ama isteneni direkt verirsek daha guzel olur.
 **PEP 8 standartlarına bakip kodlarimizi daha duzenli hale getirebiliriz. Sizin kodlariniz gayet guzel ama bu linki incelerseniz 
 daha uygun bi formatla yazmis olursunuz.--->https://peps.python.org/pep-0008/
-Ayrica en basa soeuda bizden istenen seyi ozet seklinde yazmaniz da cok guzel. Ellerinize saglik.'''
+Ayrica en basa soeuda bizden istenen seyi ozet seklinde yazmaniz da cok guzel.Ellerinize saglik.'''
 
 

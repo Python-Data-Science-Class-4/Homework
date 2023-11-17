@@ -20,3 +20,12 @@ for letter in sentencefromuser:
 sorted_counts = sorted(letter_count.items()) 
 
 print(sorted_counts)
+
+'''
+**Odevde bizden istenen alfabetik siraya gore hangi harften kac adet kullanildigi, 
+buyuk kucuk harfleri de farkli olarak hesapliyor, mesela buyuk A ile kucuk a farkliymis gibi.
+bunu (letter.lower()) kullanarak cozebilirisiniz.
+**Bosluk ya da farkli karakterleri de sayiyor bunu cozmek icin isalpha() fonksiyonu kullanabilirsiniz.
+**Oneri olarak da get metodunu kullanarak, bir harfin zaten sözlükte olup olmadığını kontroledebilirsiniz.
+Bunu zaten yapmissiniz ama sadece oneri.
+Ellerinize saglik.'''

@@ -11,3 +11,8 @@ def word_comparison(word1, word2):
 
 
 word_comparison(word1=input("Enter first word: "), word2=input("Enter second word: "))
+
+''' Kod cok guzel ama bir kac onerim var.
+**Set oluştururken zaten karakterlerin birbirinden farklı olduğu kabul edildiği için bir listeye çevirme işlemine gerek yok.
+**common_letters, unique1_letters, ve unique2_letters listelerini oluştururken sorted fonksiyonunu direkt kullanabilirisniz
+**Sonuçları bir liste olarak döndürmek ve listeyi doğrudan yazdırmak yerine, bir değişkene atayabilirsiniz.'''

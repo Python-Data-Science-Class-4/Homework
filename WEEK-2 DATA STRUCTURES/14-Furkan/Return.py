@@ -4,7 +4,7 @@
 a = list (input ("Create a list of 5 numbers: "))
 print (a)
 
-x = int (input ("Enter a number: ")) 
+x = int (input ("Enter a number: "))  
 while True:    
     if x >= 0 and  x < len (a):
         new_order = a[-x:] +a[:-x]

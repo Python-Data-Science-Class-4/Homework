@@ -1,16 +1,14 @@
+#Summarize a Sentence
+# It is so good to see you again. I wish you all the best.
 
-# New Method For Generating Lucky Numbers
+a = input ("Please write a sentence:")
+lowercase_no_space = a.lower().replace(" ", "")
+b = sorted(lowercase_no_space)
 
-a = list (input ("Create a list of 5 numbers: "))
-print (a)
-
-x = int (input ("Enter a number: ")) 
-while True:    
-    if x >= 0 and  x < len (a):
-        new_order = a[-x:] +a[:-x]
-        print(new_order)
-    elif x < 0 :
-        new_order = a[-x:] + a[:-x]
-        print(new_order) 
-    break
+c =[]
+for d in b:
+    e = b. count (d)
+    if (d not in c):
+        print (f"{e} adet {d} bulunur.")
+        c.append (d)
 

@@ -17,3 +17,16 @@ def unique_list (team):
     
 numbers = [1,2,3,3,3,3,4,5,5] 
 unique_list(numbers)
+
+''' Kod gayet guzel.
+Ama set() kullanarak benzersiz elemanları alıp ve daha sonra bu seti de bir listeye dönüştürerek 
+benzersiz elemanları içeren bir liste elde edebilirsiniz.Asagidaki ornegi inceleyebilirsiniz.
+
+def remove_duplicates(lst):
+    unique_list = list(set(lst))
+    print(unique_list)
+
+numbers = [1, 2, 3, 3, 3, 3, 4, 5, 5]
+remove_duplicates(numbers)
+'''
+

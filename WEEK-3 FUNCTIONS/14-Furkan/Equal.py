@@ -8,3 +8,7 @@ def equal (reverse):
 word = list (input ("Enter a word that is the same with its reversed form: ") . lower ()) 
 
 print (equal (word))
+
+''' cok iyi..
+Bunu bir de kelimeleri kullanicidan alip sonucu liste seklinde 
+ornekteki gibi dondurerek dener misiniz?'''

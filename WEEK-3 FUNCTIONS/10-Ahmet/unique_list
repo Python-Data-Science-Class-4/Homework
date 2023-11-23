@@ -1,0 +1,10 @@
+a = input("Rakamları Giriniz:").split(",")
+lst=list(a)
+
+
+def unique_list(lst):
+
+    return list(set(lst))
+
+
+print(unique_list(lst))

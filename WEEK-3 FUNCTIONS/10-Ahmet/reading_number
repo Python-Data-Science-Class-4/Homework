@@ -1,0 +1,21 @@
+first_digit = ["", "Bir", "İki", "Üç", "Dört", "Beş", "Altı", "Yedi", "Sekiz", "Dokuz"]
+second_digit = ["", "On", "Yirmi", "Otuz", "Kırk", "Elli", "Altmış", "Yetmiş", "Seksen", "Doksan"]
+
+
+def transcription():
+    number = int(input("Sayı:"))
+    first = number % 10
+    second = number // 10
+
+    print(second_digit[second],first_digit[first])
+    
+i = True
+
+while i:
+    i = False
+    transcription()
+    a = input("Yeni Bir Sayı Girmek İster misiniz(E/H):")
+    if(a == "E") or (a == "e"):
+        i = True
+    elif(a == "H") or (a == "h"):
+        print("İyi Günler")

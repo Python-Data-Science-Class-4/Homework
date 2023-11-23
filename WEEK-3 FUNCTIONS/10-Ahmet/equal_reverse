@@ -1,0 +1,12 @@
+word_r = []
+
+def control(words):
+    for word in words:
+        b = word[::-1]
+        if(word == b):
+            word_r.append("True")
+        else: word_r.append("False")
+
+control(list(input("Kelimeler Giriniz:").split(",")))
+
+print(word_r)

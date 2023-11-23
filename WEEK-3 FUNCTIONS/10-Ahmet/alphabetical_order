@@ -1,0 +1,11 @@
+def control(words):
+    words.sort()
+    a = 0
+    for i in words:
+        a += 1
+        if a < len(words):
+            print(i,end="-")
+        elif a == len(words):
+            print(i)
+
+control(list(input("Kelimeleri Giriniz").split(",")))

@@ -1,19 +1,29 @@
+"""Perfect number: A perfect number is a positive integer that is equal to the sum of its divisors.
+
+The smallest perfect number is 6, which is the sum of 1, 2 and 3.
+
+Some other perfect numbers are 28(1+2+4+7+14=28), 496, and 8128.
+
+This function finds perfect numbers between 1 and 1000."""
+
+
+
 def control(i):
-    c = 0
+    c = 0   #The "c" variable holds the sum of all divisors.
 
     j = 1
 
-    while j<i:
-        if i % j == 0:
-            c += j
+    while j<i:              
+        if i % j == 0:      #If the remainder after dividing "i" by "j" is "0", the value in "j" is added to the 
+            c += j          #variable "c" and the value in "j" is increased by "" and the condition is checked again.
         j += 1 
-    if(i == c):
+    if(i == c):             #The function returns "True" if the sum of its divisors is equal to the number itself.
         return True
     else: return False
 
 def main(x):
-    for i in range(2,x+1):
-        if control(i)==True:
-            print(i,"Mükemmel Sayıdır")
+    for i in range(2,x+1):  #The variable "i" takes values sequentially from 2 (2 inclusive) to 1000 (1000 inclusive).
+        if control(i)==True:                #The "control" function is run for each "i" value. 
+            print(i,"It is the perfect number.")     #If the function returns "True", the "print" function runs.
 
-main(1000)
+main(1000)  #It runs the "main" function. It takes the int value "1000".

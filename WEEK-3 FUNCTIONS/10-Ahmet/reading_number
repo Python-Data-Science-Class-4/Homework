@@ -1,21 +1,30 @@
-first_digit = ["", "Bir", "İki", "Üç", "Dört", "Beş", "Altı", "Yedi", "Sekiz", "Dokuz"]
-second_digit = ["", "On", "Yirmi", "Otuz", "Kırk", "Elli", "Altmış", "Yetmiş", "Seksen", "Doksan"]
+"""This function gives the transcription of a two-digit number."""
+
+
+
+
+first_digit = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"]
+second_digit = ["", "Ten", "Twelwe", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"]
+teens = ["Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","'Nineteen"]
 
 
 def transcription():
-    number = int(input("Sayı:"))
-    first = number % 10
-    second = number // 10
+    number = int(input("Enter the number:"))    
+    first = number % 10     #Dividing the number by 10 gives us the Second Digit.
+    second = number // 10   #The remainder of dividing the number by 10 gives us the First Digit.
 
-    print(second_digit[second],first_digit[first])
+    if second==1:
+        print(f"{number}----------->{teens[first]}")
+    else:
+        print(f"{number}----------->{second_digit[second]} {first_digit[first]}")
     
 i = True
 
-while i:
+while i:    #With this loop, we check whether the user will continue the query or not.
     i = False
     transcription()
-    a = input("Yeni Bir Sayı Girmek İster misiniz(E/H):")
-    if(a == "E") or (a == "e"):
+    a = input("Would you like to enter a new number?(Y/N):")
+    if(a == "Y") or (a == "y"):
         i = True
-    elif(a == "H") or (a == "h"):
-        print("İyi Günler")
+    elif(a == "N") or (a == "n"):
+        print("Have a nice day")

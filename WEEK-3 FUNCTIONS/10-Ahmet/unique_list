@@ -1,10 +1,13 @@
-a = input("Rakamları Giriniz:").split(",")
-lst=list(a)
+"""This function filters out all unique (non-repeating) elements of a given list."""
+
+
+
+lst = input("Enter the numbers:").split(",")    #It saves the entered numbers in the "lst" list by separating them from the "," sign between them.
 
 
 def unique_list(lst):
 
-    return list(set(lst))
+    return list(set(lst))   #It first converts the numbers in "lst" to "set". At this stage, repeated numbers are eliminated. Then it is converted back to the list.
 
 
-print(unique_list(lst))
+print(unique_list(lst)) #Runs the "unique_list" function. It assigns the "lst" list as a parameter.

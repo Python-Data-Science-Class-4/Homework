@@ -1,7 +1,7 @@
 # WEEK-4 MODULES, PACKAGES AND EXCEPTION HANDLING HOMEWORK
 
 
-'''## 1 - Random Password Generator
+'''1 - Random Password Generator
 
 As a user, I want to use a program which can generate random password and print it. So that I can generate my password for any application.
 

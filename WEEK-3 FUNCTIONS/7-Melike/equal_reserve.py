@@ -1,18 +1,16 @@
 
  ######################## 2- equal_reserve #################
 
-list = ["madam", "tacocat", "utrecht"]
-k = 1
-a = 0
-while True:
+def equal_reserve(word1):
+    word2 = word1[::-1]
+    if word1==word2:
+        print(True)
+    else:
+        print(False)
 
-    for i in list:
-        if list[a] == list[-k]:
-            print(True)
-            k -= 1
-            a += 1
-            if a > len(list) / 2:
-                break
-        else:
-            print(False)
-#### !!!!!!!!!!!!!!!!!!! This code doesn't work #############
+
+
+
+
+word1=input("enter your word: ")
+equal_reserve(word1)

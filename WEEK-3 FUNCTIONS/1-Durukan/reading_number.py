@@ -51,4 +51,7 @@ def read_number(num):
 
 
 read_number(int(input('Enter a number between 1-99: ')))
-     
+
+''' Kod gayet guzel calisiyor ellerinize saglik. Bir kac duzeltme yapabiliriz..
+** "fourty" kelimesi "forty","eighten" kelimesi "eighteen" şeklinde yazılmalıdır.
+** Sayının sıfır olması durumunu icin bir sutun ekleyebiliriz '''     

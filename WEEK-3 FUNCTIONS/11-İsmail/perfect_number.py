@@ -30,3 +30,7 @@ def sum_perf(x,y):
 result_1 = reduce(sum_perf,result)
 
 print(result_1)
+
+''' Kodunuzun temel mantığı doğru ve isteneni veriyor.Tek bir sey var.
+Mükemmel sayılar,kendisi hariç bölenlerinin toplamı kendisine eşit olan sayılardır. 
+Ancak kodunuzda bu mantıkla islem yapmamissiniz gibi gorunuyor. Ya da ben anlayamadim.'''

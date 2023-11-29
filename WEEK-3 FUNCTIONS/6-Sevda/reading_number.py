@@ -16,5 +16,5 @@ def reading_numbers(number):
         print(number, '---------->' ,ten_place[digits_number[0]],ones_place[digits_number[1]])    
 
 reading_numbers(34)
-
+''' Kod guzel ama kullanicinin sayi girmesi gerekiyor. Onu duzeltebiliriz.'''
 

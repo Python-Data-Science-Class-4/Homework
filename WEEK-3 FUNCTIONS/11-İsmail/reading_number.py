@@ -24,3 +24,4 @@ def read_number(number):
 
 number = input("Enter a number:")
 print(read_number(number))
+''' Kod gayet guzel olmus elinize saglik. Sadece sifiri ekleyebiliriz onun disinda bir sikinti yok.'''

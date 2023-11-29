@@ -14,3 +14,7 @@ from functools import reduce
 def sum_pn (x,y):
    return x+y
 print(f"The sum of perfect numbers is: ", {reduce(sum_pn,perfect_numbers)})
+
+''' Kod dogru,isteneni veriyor ama bir kac duxeltme yapabiliriz.
+İlk fonksiyonunuz perfect_numbers adıyla tanımlanmış ama aynı isimde bir değişken olarak tekrar kullanılıyor. 
+Isim cakismasi olabilir bunun icin birini degistirmemiz gerekiyor.'''

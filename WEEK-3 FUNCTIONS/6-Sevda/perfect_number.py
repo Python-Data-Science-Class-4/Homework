@@ -26,3 +26,5 @@ def sum_fuc(x,y):
 result_1 = reduce(sum_fuc,result)
 # We add perfect numbers with reduce.
 print(result_1)
+
+''' Kod gayet guzel tebrik ederim.'''

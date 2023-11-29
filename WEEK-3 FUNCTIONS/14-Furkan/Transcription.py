@@ -20,3 +20,5 @@ def transcription(number):
 your_number= int(input("Write a number between 10 and 99: "))
 output = transcription(your_number)
 print(f"{your_number} --------->",output)
+
+''' Kod gayet guzel tebrik ederim.'''

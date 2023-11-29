@@ -16,3 +16,5 @@ def word_control(word):
 word=input("Enter a word :")
 
 print(word_control(word))
+
+''' Kod gayet basarili tebrikler.'''

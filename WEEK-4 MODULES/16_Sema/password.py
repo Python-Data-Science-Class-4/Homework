@@ -4,6 +4,7 @@ import string
 n= int(input("Please enter your max-char choices for password:"))
 pw=[]
 def generatepass(n):
+    global pw
     while(len(pw)<=n-1):
         pw.append(str(random.randint(1,10)))
         pw.append(random.choice(string.ascii_lowercase))

@@ -7,14 +7,11 @@
 def perfect_numbers(pn):
    divisors = [i for i in range(1, pn) if pn % i == 0]
    return pn == sum(divisors)
-perfect_numbers = list(filter(perfect_numbers, range(1, 1000)))
-print("Perfect numbers are: ", perfect_numbers)
+numbers = list(filter(perfect_numbers, range(1, 1000)))
+print("Perfect numbers are: ", numbers)
 
 from functools import reduce
 def sum_pn (x,y):
    return x+y
-print(f"The sum of perfect numbers is: ", {reduce(sum_pn,perfect_numbers)})
+print(f"The sum of perfect numbers is: ", {reduce(sum_pn,numbers)})
 
-''' Kod dogru,isteneni veriyor ama bir kac duxeltme yapabiliriz.
-İlk fonksiyonunuz perfect_numbers adıyla tanımlanmış ama aynı isimde bir değişken olarak tekrar kullanılıyor. 
-Isim cakismasi olabilir bunun icin birini degistirmemiz gerekiyor.'''

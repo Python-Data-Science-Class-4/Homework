@@ -23,6 +23,7 @@ while True :
     password = ''.join(password)
     password = f'password:{password}'
     print(password)
+    print('password_len :',len(password))
     answer = input("Do you want to get a new password?: 'yes' or 'no'" )
     if answer.lower() != 'yes':
         break

@@ -8,10 +8,11 @@ Methods:
 • input_data() To read information from members
 • allocate_flat() To allocate flat according to income using the below table.
 • show data() to display the details of the entire class.
-> =25000                A Type
-> =20000 and <25000     B Type
->=15000 and <20000      C Type
-<15000                  D Type
+
+• > =25000                A Type
+• > =20000 and <25000     B Type
+• >=15000 and <20000      C Type
+• <15000                  D Type
 
 ## Question - 2
 Define a class named "ItemInfo' with the following description:

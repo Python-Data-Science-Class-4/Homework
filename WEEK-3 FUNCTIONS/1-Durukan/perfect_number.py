@@ -20,6 +20,8 @@ sum_of_pn = reduce(lambda x,y: x+y, perfect_numbers) # sum of perfect numbers
 
 print(sum_of_pn)
 
+''' Kod cok guzel tebrik ederim..
+Ayrica filter fonksiyonu içinde lambda yerine doğrudan perfect_number fonksiyonunu kullanabilirsiniz. '''
 
  
     

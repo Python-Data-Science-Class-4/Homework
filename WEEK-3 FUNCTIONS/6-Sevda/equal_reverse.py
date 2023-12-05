@@ -9,3 +9,6 @@ that are the same in reverse, and 'False'for words that are not the same.'''
     return list(map(lambda word : word == word[::-1],list1))
 list1 = (input('enter words:')).split()
 print(pallidromes(list1))
+
+''' Kod gayet guzel ama soruda bziden kullanicinin bir liste girmensini istiyor.
+Onu duzeltirsek iyi olur.'''

@@ -13,3 +13,6 @@ def alphabetic(*words):
     
 print(alphabetic('banana','watermelon','strwberry','grape','melon','apple'))
 
+''' Kod gayet guzel tebrikler.
+Soruda kullanicidan input almanizi soyluyor.Onu eklersek guzel olur.'''
+

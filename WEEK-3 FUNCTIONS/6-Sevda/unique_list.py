@@ -13,7 +13,7 @@ def unique_list(lists):
     
 print(unique_list(repetitive_list))    
 
-
+''' Cok guzel,tebrik ederim.'''
 
 
 

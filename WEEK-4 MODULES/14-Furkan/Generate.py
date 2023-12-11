@@ -29,3 +29,12 @@ def create():
         print("The number you gave is wrong.")
 
 create()
+
+''' Kod guzel ama neden her karakter grubunu ikiyle carptiginizi anlayamadim. Bu durumda bazı karakterlerin diğerlerinden daha fazla olasılıkla seçilmesine neden olabilir. 
+Yani eğer characters içindeki bir karakter diğer karakterlere göre iki kat daha fazla tekrar ediyorsa o karakterin seçilme olasılığı iki kat daha yüksek olacaktır. 
+Benim denedigim ciktilarda da ardisik olarak cok fazla ayni harfi veriyor mesela.
+Her karakterin eşit olasılıkla seçilmesi icin random.choice(upper) vs. kullanmalisiniz.
+**Karakter gruplarini birleştirirken büyük harf, küçük harf, rakam ve noktalama işaretlerini sırasıyla eklemissiniz.
+Ama bu siralama şifrenin belirli bir karakter setinden önce her zaman aynı iki karakteri icerir. 
+Bunun yerine tüm karakter setlerini birleştirip sonrasinda shuffle etmek daha iyi olur.
+*** Yorum satirlarini da cok az kullanmissiniz,artirirsaniz kodun anlasilirligi da artar.'''

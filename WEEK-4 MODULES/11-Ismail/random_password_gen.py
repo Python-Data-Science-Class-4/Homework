@@ -24,4 +24,10 @@ if 10 <n< 20:
 else:
     print("Invalid range")
 
+'''Kod guzel ve calisiyor. Bir kac duzeltme yapabiliriz,.
+**En basta n yerine daha anlasilir bir ifade yazabiliriz,password_length gibi.
+**Neden (characters*2) kullandiginizi anlayamadim. Bu durumda bazı karakterlerin diğerlerinden daha fazla olasılıkla seçilmesine neden olabilir. 
+Yani eğer characters içindeki bir karakter diğer karakterlere göre iki kat daha fazla tekrar ediyorsa o karakterin seçilme olasılığı iki kat daha yüksek olacaktır.
+Her karakterin eşit olasılıkla seçilmesi icin random.choice(characters)) kullanmalisiniz.'''
+
 

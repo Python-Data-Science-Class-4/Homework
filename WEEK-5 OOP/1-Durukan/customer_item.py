@@ -92,6 +92,10 @@ Selection: ''')
             shop = Items()
 
 shopping_algorithm()
+
+''' Kod harika,ellerinize saglik. Bir oneri;
+**price_tobe_paid değişkenini __init__ metodunda tanımlamak ve ardından calculate_discount fonksiyonunda güncellemek daha uygun olabilir.'''
+
     
 
 

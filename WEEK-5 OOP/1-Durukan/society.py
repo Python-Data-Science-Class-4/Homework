@@ -39,3 +39,5 @@ Flat            : {self.flat}'''
 
 
 society = Society()
+
+'''Çok güzel ellerinize sağlık'''

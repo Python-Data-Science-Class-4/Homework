@@ -21,3 +21,7 @@ Product Name    : {self.product_name}
 Purchase Price  : {self.product_purchase_price}
 Sale Price      : {self.product_sale_price}
 Profits         : {self.profit}''')
+
+''' Kod gayet guzel,
+**show_data fonksiyonu sadece bilgi göstermek için kullanılıyorsa bu tür fonksiyonlara genellikle __str__ metodu eklemek daha uygun olabilir.
+**koddan hicbir çıktı alamıyoruz herhangi bir product tanımlayabilirsiniz onu görebiliriz'''

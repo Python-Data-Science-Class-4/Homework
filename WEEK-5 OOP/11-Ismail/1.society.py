@@ -33,3 +33,19 @@ class Society():
 person1= Society() # created a object for example
 
 print(person1.show_data())
+
+''' Kod gayet basarili tebrik ederim. Sadece bir kac onerim olabilir.
+**__init__ fonksiyonunda zaten değerleri aldığınız için input_data fonksiyonu aslinda cpk da gerekli değil. 
+ __init__ içinde doğrudan değer ataması yapabilirsiniz. 
+ soyle ki;
+ person1 = Society(
+    society_name=input("Society Name: "),
+    num_of_members=int(input("Number of Members: ")),
+    income=int(input("Income: "))
+)
+input_data fonksiyonunu kaldirip sonucu bu sekilde yapabilirsiniz.
+
+** show data fonksiyonundaki ciktiyi soyle daha duzenli sekilde yazabilirsiniz.
+return f"Society Name: {self.society_name}\nNumber of Members: {self.num_of_members}\nIncome: {self.income}\nFlat Type: {self.flat_type}\n"
+'''
+

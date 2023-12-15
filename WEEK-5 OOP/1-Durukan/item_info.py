@@ -40,3 +40,5 @@ Net Price          :{self.net_price}
 
 
 item1 = ItemInfo('cikolata')
+
+''' Gayet basarili tebrik ederim.'''

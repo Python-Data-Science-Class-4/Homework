@@ -30,3 +30,5 @@ Example = (f'''
            Amount of margin:   {product1.margin} Euro
            Remarks:            {product1.remarks}''')
 print (Example)
+
+''' Kod gayet guzel tebrik ederim.'''

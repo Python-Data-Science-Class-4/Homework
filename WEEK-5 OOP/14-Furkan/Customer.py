@@ -37,3 +37,8 @@ item_example = Item("Laptop", 1500)
 item_example.shopping_card(3)
 customer.shopping_list.extend([item_example])
 print(customer)
+
+'''Kod gayet basarili,
+**get_total_amount metodunun döndürdüğü değeri int olarak döndürüyorsunuz kusuratli bir deger girildiginde hataya yol acabilir int ifadesini kaldirabiliriz.
+**soruda musteri urun eklesin diyor ama siz kendiniz urun secmissiniz.'''
+

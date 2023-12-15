@@ -36,6 +36,9 @@ class ItemInfo:
 Info = ItemInfo()
 Info.buy ()
 Info.show_all ()
+''' Kod gayet basarili calisiyor.
+**show_all fonksiyonunun çıktısını düzenlemek için f-string kullanabilirsiniz.
+**calculate_discount fonksiyonunu buy fonksiyonu içinde çağırmadan önce doğrudan __init__ içinde çağırabilirsiniz.'''
         
 
     

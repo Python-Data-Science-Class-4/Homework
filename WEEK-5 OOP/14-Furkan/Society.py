@@ -26,3 +26,6 @@ members = Society()
 members.input_data()
 members.allocate_flat()
 members.show_data()
+
+''' Kod gayet basarili tebrik ederim. 
+**show_data fonksiyonunun print yerine return kullanirsaniz daha esnek olabilir.'''

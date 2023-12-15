@@ -40,3 +40,8 @@ class ItemInfo():
 item1=ItemInfo()
 
 print(item1.show_all())
+
+''' Kod gayet guzel.
+**show_all fonksiyonunda f-string kullanabilirsiniz. Formatlama işlemlerini daha okunabilir hale getirir.
+**sizden ricam daha fazla yorum satiri kullanmaniz.
+**son olarak fonksiyon isimlerini daha anlasilir yazmaniz. ornegin buy yerine get_purchase_info gibi.'''

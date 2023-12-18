@@ -2,19 +2,13 @@ class Society():
     #Created a class as known "society", we need to take from some informations about the members.
     #firstly created normally init method, and assigned initial values 
     def __init__(self,society_name="",house_no_of_mem="",flat="",income=0) :
-        self.society_name=society_name 
-        self.house_no_of_mem = house_no_of_mem
+        self.society_name=input("Society Name:") 
+        self.house_no_of_mem = int(input("Number of members:"))
         self.flat = flat
-        self.income = income
+        self.income = int(input("Income :"))
         
-        self.input_data() 
         self.allocate_flat()
-    
-    def input_data(self):
-        #inputs form members
-        self.society_name = str(input("Society Name:"))
-        self.house_no_of_mem= str(input("No:"))
-        self.income=int(input("Income:"))
+        self.show_data()
         
     def allocate_flat(self): # It assigns to which type it is based on the conditions
         if self.income >= 2500 :
@@ -28,8 +22,7 @@ class Society():
             
     def show_data(self):
         #it shows the data from member
-        return ("Society Name: {}\nHouse no of member:{}\nIncome:{}\nFlat Type:{}\n".format(self.society_name,self.house_no_of_mem,self.income,self.flat))
-
+        return f"Society Name: {self.society_name}\nNumber of members:{self.house_no_of_mem}\nIncome:{self.income}\nFlat Type:{self.flat}\n"
 person1= Society() # created a object for example
 
 print(person1.show_data())

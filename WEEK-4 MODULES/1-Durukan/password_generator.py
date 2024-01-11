@@ -26,5 +26,15 @@ def password_generator():
 new_psw = password_generator()
 print(f'Generated Password: {new_psw}')
 print(f'Password Length: {len(new_psw)}')
+
+'''Kod gayet guzel,dogru calisiyor ve isteneni veriyor ama bir kac duzeltmeyapabiliriz.
+**'TypeError' genellikle farklı türde bir işlem yapılmaya çalışıldığında ortaya çıkar.
+Kullanıcının sayı girmesini sağlamak ve bu sayıyı almak istediğimizde 'ValueError' kullanmamız daha uygun olur.'''
+
+
+
+
+
+
     
          

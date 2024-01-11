@@ -2,21 +2,23 @@ import random
 import string
 
 def new(length):
-
     upper   = string.ascii_uppercase  
     lower   = string.ascii_lowercase 
     numeral = string.digits 
     punct   = string.punctuation
     
-    pw = [random.choice(upper)*2,random.choice(numeral)*2,random.choice(punct)*2]
-    
+    pw_1 = [random.choice(upper),random.choice(numeral),random.choice(punct),
+            random.choice(upper),random.choice(numeral),random.choice(punct)]
+    # Criteria: a) Password length between 10-20   b) At least 2 upper, 2 lower, 2 symbols 
     length = max(10, min(length, 20))
      
-    together = length - len(pw) - 3      # For the formulization I had to use '3'
-    characters = upper + lower + numeral + punct
-    pw.extend(random.choice(characters) for x in range(together))
-    random.shuffle (pw)
-    return ''.join(pw)
+    len_of_others = length - len(pw_1)     
+    other_characters = []
+    for x in range(len_of_others):
+        other_characters += random.choice(lower)
+    pw_1.extend(other_characters)
+    random.shuffle (pw_1)
+    return ''.join(pw_1)
     
 def create():
     password_length = int(input("Enter the number of password between 10-20: "))

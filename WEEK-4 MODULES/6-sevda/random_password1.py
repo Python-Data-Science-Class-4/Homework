@@ -28,7 +28,16 @@ while True :
     if answer.lower() != 'yes':
         break
         
-
+'''
+**string.ascii_lowercase kullanılırken büyük harf eklemek için ayrıca string.ascii_uppercase kullanmanıza gerek yok, 
+çünkü string.ascii_letters tüm harfleri içeriyor.
+**random.sample fonksiyonu karakter gruplarindan örnekl almak için kullanılmaz,
+çünkü bu fonksiyonun çıktsi bir liste olur. random.choices fonksiyonunu kullanabilirsiniz.
+**Şifre uzunluğunu kontrol etmek için de ayrı bir döngü kullanabilir ve kullanıcıya doğru bir giriş yapılana kadar sorabilirsiniz.
+Parolanın uzunluğunu kontrol etmek ve parolanın başında "password:" ifadesini eklemek için ayrı döngüler kullanmanıza gerek yok. 
+Bu işlemleri aynı döngü içinde gerçekleştirebilirsiniz.
+**Girdilere ve kod duzenine dikkat ederseniz daha duzenli bir kod olabilir ayrica hoc yorum satiri kullanmamissiniz buna da ozen gosterirseniz daha iyi olur.
+'''
 
 
 

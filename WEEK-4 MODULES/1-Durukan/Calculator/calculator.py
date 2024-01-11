@@ -58,3 +58,7 @@ def main():
 
 
 main()
+
+''' Kodunuz gayet guzel gorunuyor ellerinize saglik.
+Sadece hesaplamalar ve menü seçenekleri gibi farklı görevleri olan kod bloklarını
+ayrı fonksiyonlara bölebilirsiniz.'''

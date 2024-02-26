@@ -1,0 +1,111 @@
+,Age,Gender,Education Level,Income,Marital Status,Employment Status,Product Category,Satisfaction Level,Debt Status
+0,500,Female,,31158.0,,,,9,1
+1,73,Female,College,54465.0,,0.0,E,5,1
+2,68,Male,High School,37427.0,married,0.0,D,1,1
+3,61,Female,College,52210.0,widowed,0.0,G,8,1
+4,34,Female,College,59325.0,separated,1.0,A,5,0
+5,10,Female,Elementary,31918.0,separated,0.0,F,3,1
+6,80,Male,University,36015.0,never married,,A,5,0
+7,25,Female,High School,23691.0,widowed,0.0,A,5,1
+8,44,Male,Elementary,48126.0,widowed,,F,0,0
+9,89,Female,University,42850.0,never married,,E,4,1
+10,500,Female,College,31654.0,never married,1.0,G,7,0
+11,99,Female,High School,6740.0,separated,,,9,1
+12,25,Female,University,32005.0,,0.0,A,5,0
+13,7,Male,Elementary,39697.0,,,F,6,0
+14,70,Male,High School,863305114.0,,0.0,D,4,1
+15,58,Female,,,,,G,5,0
+16,76,Male,University,14106.0,,0.0,D,9,1
+17,87,Male,,42825.0,divorced,1.0,G,6,0
+18,2,Female,Elementary,43806.0,married,0.0,C,3,1
+19,73,Male,,23759.0,,1.0,G,4,1
+20,500,Female,University,64165.0,separated,0.0,A,2,1
+21,85,Male,Elementary,10845.0,,,G,7,1
+22,9,Male,Elementary,,separated,0.0,D,1,0
+23,48,Female,,195144049.0,separated,,A,1,0
+24,25,Male,High School,27810.0,divorced,0.0,B,7,1
+25,67,Male,High School,46693.0,married,0.0,E,1,0
+26,5,Male,University,38342.0,,0.0,G,2,0
+27,92,Female,University,38102.0,,1.0,B,0,0
+28,80,Female,High School,32142.0,separated,,C,7,0
+29,39,Male,High School,,,1.0,B,4,0
+30,500,Female,High School,18442.0,separated,1.0,A,3,0
+31,71,Male,University,37258.0,never married,1.0,D,5,0
+32,81,Female,College,314696218.0,never married,1.0,E,5,1
+33,21,Male,University,16755.0,separated,0.0,,4,1
+34,92,Male,High School,26777.0,separated,0.0,C,9,0
+35,47,Female,College,36124.0,widowed,1.0,C,9,0
+36,6,Male,Elementary,,never married,1.0,E,7,1
+37,0,Male,University,18335.0,widowed,1.0,G,4,0
+38,2,Male,University,64730.0,married,,D,9,0
+39,91,Female,High School,26003.0,divorced,,C,8,0
+40,500,Female,College,45140.0,widowed,0.0,D,9,0
+41,1,Male,,862386254.0,married,,F,1,0
+42,14,Male,,23341.0,widowed,1.0,C,2,1
+43,40,Female,College,,married,,D,1,0
+44,95,Male,,32096.0,widowed,1.0,A,2,0
+45,50,Male,Elementary,48988.0,divorced,,C,2,1
+46,46,Female,Elementary,34665.0,married,,,1,0
+47,71,Male,University,25308.0,separated,,B,5,0
+48,8,Male,,20905.0,widowed,0.0,F,5,1
+49,64,Female,High School,47396.0,separated,,C,6,1
+50,500,Male,University,575772080.0,married,0.0,D,5,0
+51,0,Male,College,39728.0,never married,0.0,F,0,1
+52,19,Male,Elementary,44731.0,married,,E,3,0
+53,71,Male,High School,32488.0,,1.0,E,1,0
+54,33,Male,High School,34641.0,never married,1.0,D,6,1
+55,52,Male,College,53960.0,divorced,1.0,A,0,0
+56,85,Female,University,39063.0,divorced,,F,8,1
+57,20,Male,University,,separated,0.0,,6,1
+58,6,Female,University,16647.0,,,B,5,1
+59,90,Male,College,300245882.0,widowed,0.0,C,6,1
+60,500,Female,College,34060.0,separated,1.0,G,7,0
+61,45,Male,,31164.0,separated,,C,7,0
+62,21,Female,University,50701.0,married,1.0,D,3,0
+63,34,Male,University,45592.0,never married,,,3,0
+64,70,Male,University,,married,1.0,,7,1
+65,67,Female,Elementary,42849.0,separated,,G,3,0
+66,63,Female,Elementary,26442.0,divorced,0.0,G,0,1
+67,72,Female,University,31529.0,married,0.0,C,5,1
+68,46,Male,University,777761952.0,married,1.0,,8,0
+69,33,Female,University,44423.0,widowed,0.0,F,8,1
+70,500,Male,High School,21593.0,never married,,D,3,1
+71,58,Male,High School,,widowed,0.0,,9,0
+72,63,Male,University,42496.0,widowed,1.0,D,5,0
+73,39,Female,College,55750.0,married,1.0,F,5,0
+74,1,Female,University,22238.0,widowed,1.0,,9,0
+75,54,Male,,55527.0,married,,D,3,1
+76,3,Female,High School,37208.0,separated,1.0,G,1,0
+77,99,Female,Elementary,286421460.0,widowed,1.0,G,2,0
+78,30,Female,Elementary,,divorced,0.0,E,3,0
+79,23,Female,College,44233.0,widowed,0.0,C,3,0
+80,500,Male,University,60010.0,married,1.0,E,7,1
+81,39,Male,University,39787.0,,,F,8,1
+82,49,Female,,27929.0,married,0.0,G,5,1
+83,18,Female,Elementary,34445.0,married,1.0,D,1,1
+84,63,Male,High School,45571.0,married,,D,0,1
+85,94,Female,High School,,separated,0.0,G,4,0
+86,31,Female,High School,505250420.0,separated,1.0,G,4,1
+87,88,Female,,17592.0,separated,1.0,D,1,1
+88,54,Male,,41302.0,separated,,C,0,0
+89,27,Female,University,49231.0,married,1.0,G,1,0
+90,500,Female,,31759.0,,1.0,G,6,0
+91,52,Female,High School,41351.0,divorced,1.0,E,2,1
+92,39,Male,University,,,0.0,F,0,0
+93,93,Male,,56933.0,divorced,1.0,G,8,1
+94,49,Male,College,34922.0,separated,1.0,C,9,1
+95,39,Male,High School,148112279.0,widowed,,B,8,1
+96,24,Male,College,23286.0,divorced,1.0,B,3,1
+97,58,Male,Elementary,7010.0,widowed,1.0,,5,0
+98,57,Female,College,23621.0,widowed,1.0,B,1,0
+99,52,Female,High School,36009.0,widowed,1.0,,4,0
+29,39,Male,High School,,,1.0,B,4,0
+86,31,Female,High School,505250420.0,separated,1.0,G,4,1
+38,2,Male,University,64730.0,married,,D,9,1
+59,90,Male,College,300245882.0,widowed,0.0,C,6,1
+84,63,Male,High School,45571.0,married,,D,0,0
+56,85,Female,University,39063.0,divorced,,F,8,0
+0,500,Female,,31158.0,,,,9,0
+73,39,Female,College,55750.0,married,1.0,F,5,1
+28,80,Female,High School,32142.0,separated,,C,7,1
+30,500,Female,High School,18442.0,separated,1.0,A,3,0

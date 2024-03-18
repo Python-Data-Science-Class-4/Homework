@@ -1,0 +1,14 @@
+kilo = float(input("Vücut Ağırlığını Giriniz:"))
+boy = float(input("Boy Giriniz:"))
+
+indeks = kilo / boy**2
+print(indeks)
+
+if(indeks<25):
+    print(f"Vücut Kitle İndeksiniz {indeks}. NORMAL")
+elif(25<=indeks<30):
+    print(f"Vücut Kitle İndeksiniz {indeks}. AŞIRI KİLOLU")
+elif(30<=indeks<40):
+    print(f"Vücut Kitle İndeksiniz {indeks}. OBEZ")
+elif(40<=indeks):
+    print(f"Vücut Kitle İndeksiniz {indeks}. AŞIRI OBEZ")

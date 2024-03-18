@@ -1,0 +1,15 @@
+
+weight = float(input("Lütfen kilonuzu kilogram cinsinden girin: "))
+height = float(input("Lütfen boyunuzu metre cinsinden girin: "))
+
+bmi = weight / (height ** 2)
+
+print("Your BMI is: " + str(bmi) )
+if bmi < 25:
+    print("NORMAL")
+elif 25 <= bmi < 30:
+    print("OVERWEIGHT")
+elif 30 <= bmi < 40:
+    print("OBESE")
+else:
+    print("EXTREMELY OBESE")

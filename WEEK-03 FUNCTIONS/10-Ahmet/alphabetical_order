@@ -1,0 +1,17 @@
+"""This function takes the input of different words with a dash (-) between them, 
+sorts these words in alphabetical order, adds a dash symbol (-) between them, and outputs the sorted words."""
+
+
+
+
+def control(words): #The "control" function takes the words in the "list" list as parameters. It puts it into the "words" variable.
+    words.sort()  #Sorts the words in the "words" variable alphabetically.
+    a = 0
+    for i in words:  #It puts the words in "words" one by one into the "i" variable.
+        a += 1                  #With the "a" variable, it is checked whether the last word in the "words" list has been reached. 
+        if a < len(words):      #If the last word is not reached, it is printed by adding "-" at the end of the word. If the last 
+            print(i,end="-")    #word is reached, the word is printed without the ending "-".
+        elif a == len(words):
+            print(i)
+
+control(list(input("Enter Words:").split("-")))  #It separates the words containing the "-" sign from the "-" sign and saves them in the "list" list. Calls the "control" function.

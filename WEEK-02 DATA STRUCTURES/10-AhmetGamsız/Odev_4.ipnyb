@@ -1,0 +1,6 @@
+ilk_kelime = list(input("Birinci Kelimeyi Yazınız:"))
+ikinci_kelime = list(input("İkinci Kelimeyi Yazınız:"))
+
+ortak = set(ilk_kelime) & set(ikinci_kelime)
+
+print(f"Birinci Kelimenin Harfleri: {ilk_kelime}\nİkinci Kelimenin Harfleri: {ikinci_kelime}\nOrtak Harfler:{ortak}")
